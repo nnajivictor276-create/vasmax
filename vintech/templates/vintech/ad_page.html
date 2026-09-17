@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Please wait...</title>
+    <meta http-equiv="refresh" content="5; url={{ link.destination_url }}">
+    <style>
+        body { font-family: Arial; text-align: center; padding-top: 100px; background: #f0f0f0; }
+        .ad-box { background: yellow; padding: 40px; border: 3px solid red; display: inline-block; }
+    </style>
+</head>
+<body>
+    <div class="ad-box">
+        {{ ad.code|safe }}
+    </div>
+    <p style="margin-top:20px;">Redirecting in 5 seconds...</p>
+</body>
+</html>
